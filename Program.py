@@ -19,7 +19,7 @@ def separate_images_and_videos(root_folder, image_folder, video_folder):
                     shutil.move(file_path, os.path.join(video_folder, filename))
 
 # Input folders from the user
-root_folder = input("Destenation folder: ")
+root_folder = input("Root folder: ")
 image_folder = input("Enter the image folder path: ")
 video_folder = input("Enter the video folder path: ")
 
